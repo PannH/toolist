@@ -6,6 +6,7 @@ import Home from './views/Home.vue';
 import Categories from './views/Categories.vue';
 import Category from './views/Category.vue';
 import Redirect from './views/Redirect.vue';
+import NotFound from './views/NotFound.vue';
 
 const router = createRouter({
    history: createWebHistory(),
@@ -21,6 +22,12 @@ const router = createRouter({
    }, {
       path: '/redirect',
       component: Redirect
+   }, {
+      path: '/not-found',
+      component: NotFound
+   }, {
+      path: '/:pathMatch(.*)',
+      redirect: '/not-found'
    }]
 });
 
