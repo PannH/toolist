@@ -6,6 +6,6 @@
    "elements": [{
       "title": "React",
       "description": "The go-to JavaScript library for crafting interactive and dynamic user interfaces. Simplify web app development with React and deliver an outstanding user experience.",
-      "slug": "react"
+      "logoName": "react"
    }]
 }]
