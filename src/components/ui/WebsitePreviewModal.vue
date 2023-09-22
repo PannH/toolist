@@ -11,8 +11,8 @@
 </script>
 
 <template>
-   <div class="layer" :style="{ display }"></div>
-   <div class="website-preview-modal" :style="{ display }">
+   <div class="layer" :style="{ display }" @click="$emit('closeButtonClick')"></div>
+   <div class="website-preview-modal" :data-open="display === 'flex'" :style="{ display }">
       <header>
          <h3>Website Preview</h3>
          <div class="website-url-bar">
@@ -33,7 +33,7 @@
    .layer {
       background-color: rgba($black, .75);
 
-      position: absolute;
+      position: fixed;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -57,7 +57,7 @@
    }
 
    .website-preview-modal {
-      position: absolute;
+      position: fixed;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -79,6 +79,45 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
+
+      @media (max-width: 1100px) {
+         width: 90%;
+         height: 90%;
+         
+         > header {
+            flex-wrap: wrap;
+
+            > .buttons {
+               width: 100%;
+
+               margin-top: 10px;
+            }
+         }
+      }
+
+      @media (max-width: 675px) {
+         > header {
+            > h3 {
+               text-align: center;
+            }
+
+            > * {
+               width: 100%;
+            }
+
+            > .website-url-bar {
+               margin-top: 10px;
+            }
+
+            > .buttons {
+               margin-top: 20px;
+
+               flex-direction: column;
+
+               text-align: center;
+            }
+         }
+      }
 
       > header {
          display: flex;
