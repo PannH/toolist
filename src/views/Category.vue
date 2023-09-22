@@ -1,26 +1,30 @@
 <script setup lang="ts">
    import CounterTitle from '../components/ui/CounterTitle.vue';
    import ToolCard from '../components/ui/ToolCard.vue';
-   import { useRoute } from 'vue-router';
+   import { useRoute, useRouter } from 'vue-router';
    import categories from '../assets/data/categories.json';
 
+   const router = useRouter();
    const route = useRoute();
    const categorySlug = route.params.slug as string;
 
-   const elements = categories.find((category) => category.slug === categorySlug)?.elements;
+   const category = categories.find(category => category.slug === categorySlug);
+
+   if (!category)
+      router.push('/');
 </script>
 
 <template>
    <main>
       <header>
-         <img src="../assets/images/emojis/hammer-and-wrench.png" alt="hammer and wrench">
-         <CounterTitle :count="elements?.length ?? 0">
-            Frameworks
+         <img :src="`../src/assets/images/emojis/${category?.emojiName}.png`" :alt="category?.emojiName.replace(/-/g, ' ')">
+         <CounterTitle :count="category?.elements.length ?? 0">
+            {{ category?.title }}
          </CounterTitle>
       </header>
       <div class="cards-container">
          <ToolCard
-            v-for="element of elements"
+            v-for="element of category?.elements"
             :title="element.title"
             :description="element.description"
             :logoName="element.logoName"
