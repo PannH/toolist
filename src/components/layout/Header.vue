@@ -10,10 +10,10 @@
          <NavLink to="/categories">
             Categories
          </NavLink>
-         <NavLink to="/redirect?to=https://github.com/PannH/toolist/pulls">
+         <NavLink to="/redirect?to=https://github.com/PannH/toolist/pulls" target="_blank">
             Suggestion
          </NavLink>
-         <NavLink to="/redirect?to=https://github.com/PannH/toolist">
+         <NavLink to="/redirect?to=https://github.com/PannH/toolist" target="_blank">
             GitHub
          </NavLink>
       </nav>
