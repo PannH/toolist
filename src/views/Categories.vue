@@ -37,7 +37,7 @@
          align-items: center;
          gap: 20px;
          flex-wrap: wrap;
-         
+
          margin: 50px;
 
          @media (max-width: 490px) {

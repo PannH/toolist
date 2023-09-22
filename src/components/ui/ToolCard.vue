@@ -56,6 +56,10 @@
 
       transition: border-color .1s;
 
+      @media (max-width: 480px) {
+         width: 95vw;
+      }
+
       &:hover {
          border-color: $purple;
          
