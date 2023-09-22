@@ -1,15 +1,14 @@
 <script setup lang="ts">
    import { RouterLink } from 'vue-router';
 
-   const { variant, to, isExternal } = defineProps<{
+   const { variant, to } = defineProps<{
       variant: 'primary' | 'secondary';
       to?: string;
-      isExternal?: boolean;
    }>();
 </script>
 
 <template>
-   <RouterLink v-if="to" :to="to" :target="isExternal ? '_blank' : ''" :class="`button ${variant}`">
+   <RouterLink v-if="to" :to="to" :class="`button ${variant}`">
       <slot />
    </RouterLink>
    <button v-else :class="`button ${variant}`">
