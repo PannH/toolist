@@ -25,6 +25,7 @@
       transition: background-color .1s;
 
       font-size: 16px;
+      color: $white;
 
       &:hover {
          background-color: $transparent-white;
