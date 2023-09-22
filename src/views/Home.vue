@@ -15,10 +15,10 @@
          </p>
       </div>
       <div class="buttons">
-         <Button variant="primary">
+         <Button variant="primary" to="/categories">
             Explore Categories
          </Button>
-         <Button variant="secondary">
+         <Button variant="secondary" to="/github">
             GitHub Repository
          </Button>
       </div>
