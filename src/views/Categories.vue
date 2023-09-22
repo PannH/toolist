@@ -6,7 +6,7 @@
 
 <template>
    <main>
-      <CounterTitle :count="16">Categories</CounterTitle>
+      <CounterTitle :count="categories.length">Categories</CounterTitle>
       <div class="cards-container">
          <CategoryCard
             v-for="category of categories"

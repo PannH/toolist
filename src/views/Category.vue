@@ -14,7 +14,7 @@
    <main>
       <header>
          <img src="../assets/images/emojis/hammer-and-wrench.png" alt="hammer and wrench">
-         <CounterTitle :count="26">
+         <CounterTitle :count="elements?.length ?? 0">
             Frameworks
          </CounterTitle>
       </header>
@@ -24,11 +24,6 @@
             :title="element.title"
             :description="element.description"
             :logoName="element.logoName"
-         />
-         <ToolCard
-            logoName="react"
-            title="React"
-            description="The go-to JavaScript library for crafting interactive and dynamic user interfaces. Simplify web app development with React and deliver an outstanding user experience."
          />
       </div>
    </main>
