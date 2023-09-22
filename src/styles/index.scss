@@ -18,6 +18,10 @@ body {
    background-color: $black;
 }
 
+body:has(.website-preview-modal[data-open="true"]) {
+   overflow: hidden;
+}
+
 #app {
    height: 0;
    min-height: 100dvh;
