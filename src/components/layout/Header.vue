@@ -11,8 +11,12 @@
    const openButtonDisplay = isOpen.value ? 'none' : 'grid';
    const closeButtonDisplay = isOpen.value ? 'grid' : 'none';
 
-   function toggleHeader(): void {
-      isOpen.value = !isOpen.value;
+   function openHeader(): void {
+      isOpen.value = true;
+   }
+
+   function closeHeader(): void {
+      isOpen.value = false;
    }
 </script>
 
@@ -20,25 +24,25 @@
    <header :data-open="isOpen">
       <RouterLink class="home-link" to="/">TOOLIST</RouterLink>
       <div class="toggle-buttons">
-         <IconButton class="open-button" @click="toggleHeader()">
+         <IconButton class="open-button" @click="openHeader()">
             <BarsIcon />
          </IconButton>
-         <IconButton class="close-button" @click="toggleHeader()">
+         <IconButton class="close-button" @click="closeHeader()">
             <XmarkIcon />
          </IconButton>
       </div>
       <nav>
-         <NavLink to="/categories">
+         <NavLink to="/categories" @click="closeHeader()">
             Categories
          </NavLink>
          <!--
             todo: replace the pulls url by an anchor url to a title of the readme 
             that says how to suggest a new tool (idea: contact me on discord)
          -->
-         <NavLink to="/redirect?to=https://github.com/PannH/toolist/pulls" target="_blank">
+         <NavLink to="/redirect?to=https://github.com/PannH/toolist/pulls" target="_blank" @click="closeHeader()">
             Suggestion
          </NavLink>
-         <NavLink to="/redirect?to=https://github.com/PannH/toolist" target="_blank">
+         <NavLink to="/redirect?to=https://github.com/PannH/toolist" target="_blank" @click="closeHeader()">
             GitHub
          </NavLink>
       </nav>
