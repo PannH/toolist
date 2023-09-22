@@ -31,7 +31,7 @@
    @use '../../styles/vars.scss' as *;
 
    .layer {
-      background-color: $transparent-black;
+      background-color: rgba($black, .75);
 
       position: absolute;
       top: 50%;
