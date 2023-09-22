@@ -5,6 +5,7 @@ import App from './App.vue';
 import Home from './views/Home.vue';
 import Categories from './views/Categories.vue';
 import Category from './views/Category.vue';
+import Redirect from './views/Redirect.vue';
 
 const router = createRouter({
    history: createWebHistory(),
@@ -17,6 +18,9 @@ const router = createRouter({
    }, {
       path: '/category/:slug',
       component: Category
+   }, {
+      path: '/redirect',
+      component: Redirect
    }]
 });
 
