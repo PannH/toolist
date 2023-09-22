@@ -56,6 +56,8 @@
 
       transition: border-color .1s;
 
+      align-self: stretch;
+
       @media (max-width: 480px) {
          width: 95vw;
       }
