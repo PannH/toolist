@@ -19,7 +19,7 @@
             <span>{{ websiteUrl }}</span>
          </div>
          <div class="buttons">
-            <Button variant="primary" :to="websiteUrl" :is-external="true">Open Website</Button>
+            <Button variant="primary" :to="`/redirect?to=${websiteUrl}`" :is-external="true">Open Website</Button>
             <Button variant="secondary" @click="$emit('closeButtonClick')">Close</Button>
          </div>
       </header>
