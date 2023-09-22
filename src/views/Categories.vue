@@ -1,6 +1,7 @@
 <script setup lang="ts">
    import CounterTitle from '../components/ui/CounterTitle.vue';
    import CategoryCard from '../components/ui/CategoryCard.vue';
+   import categories from '../assets/data/categories.json';
 </script>
 
 <template>
@@ -8,144 +9,12 @@
       <CounterTitle :count="16">Categories</CounterTitle>
       <div class="cards-container">
          <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
-         />
-         <CategoryCard
-            emoji-name="hammer-and-wrench"
-            title="Frameworks"
-            description="Explore ready-made solutions to speed up the creation of interactive and high-performance websites."
-            :elements-count="12"
-            slug="frameworks"
+            v-for="category of categories"
+            :title="category.title"
+            :description="category.description"
+            :slug="category.slug"
+            :emoji-name="category.emojiName"
+            :elements-count="category.elements.length"
          />
       </div>
    </main>
