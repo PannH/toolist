@@ -63,11 +63,22 @@
 
             width: 715px;
          }
+
+         @media (max-width: 1100px) {
+            > h1,
+            > p {
+               width: 90vw;
+            }
+         }
       }
 
       > .buttons {
          display: flex;
          gap: 20px;
+
+         @media (max-width: 460px) {
+            flex-direction: column;
+         }
       }
    }
 </style>
