@@ -18,7 +18,7 @@
          <Button variant="primary" to="/categories">
             Explore Categories
          </Button>
-         <Button variant="secondary" to="/github">
+         <Button variant="secondary" to="/redirect?to=https://github.com/PannH/toolist">
             GitHub Repository
          </Button>
       </div>
