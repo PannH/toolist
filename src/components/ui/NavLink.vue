@@ -22,13 +22,14 @@
 
       text-decoration: none;
 
-      transition: background-color .1s;
+      transition: .1s;
 
       font-size: 16px;
-      color: $white;
+      color: $gray;
 
       &:hover {
          background-color: $transparent-white;
+         color: $white;
       }
    }
 </style>
