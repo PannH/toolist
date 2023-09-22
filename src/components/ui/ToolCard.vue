@@ -29,7 +29,7 @@
    />
    <div class="tool-card" @click="openModal()">
       <header>
-         <img loading="lazy" :src="`../src/assets/images/logos/${logoName}.png`" :alt="logoName.replace(/-/g, ' ')">
+         <img loading="lazy" :src="`../src/assets/images/logos/frameworks/${logoName}.png`" :alt="logoName.replace(/-/g, ' ')">
          <h3>{{ title }}</h3>
       </header>
       <main>
