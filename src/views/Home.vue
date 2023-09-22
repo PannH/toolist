@@ -18,7 +18,7 @@
          <Button variant="primary" to="/categories">
             Explore Categories
          </Button>
-         <Button variant="secondary" to="/github" target="_blank">
+         <Button variant="secondary" to="/github">
             GitHub Repository
          </Button>
       </div>
