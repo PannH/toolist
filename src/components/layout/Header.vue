@@ -46,6 +46,8 @@
          font-weight: bold;
 
          text-decoration: none;
+
+         color: $white;
       }
 
       > nav {
