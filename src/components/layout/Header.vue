@@ -26,6 +26,8 @@
    header {
       background-color: $transparent-white;
 
+      backdrop-filter: blur(7px);
+
       $margin: 20px;
 
       position: fixed;
