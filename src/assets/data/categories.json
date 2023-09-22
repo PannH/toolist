@@ -5,8 +5,58 @@
    "emojiName": "hammer-and-wrench",
    "elements": [{
       "title": "React",
-      "description": "The go-to JavaScript library for crafting interactive and dynamic user interfaces. Simplify web app development with React and deliver an outstanding user experience.",
+      "description": "A JavaScript library developped by Facebook which allows you to easily create web applications by mounting components together.",
       "logoName": "react",
       "websiteUrl": "https://react.dev/"
+   }, {
+      "title": "Vue.js",
+      "description": "A JavaScript framework used to build user interfaces and web applications originally created by Evan You.",
+      "logoName": "vuejs",
+      "websiteUrl": "https://vuejs.org/"
+   }, {
+      "title": "Angular",
+      "description": "A TypeScript-based open-source web application framework co-managed by the \"Angular\" team at Google and by a community of individuals and corporations.",
+      "logoName": "angular",
+      "websiteUrl": "https://angular.io/"
+   }, {
+      "title": "Symfony",
+      "description": "A PHP framework used to build web applications and APIs. It is based on the MVC pattern and is one of the most popular PHP frameworks.",
+      "logoName": "symfony",
+      "websiteUrl": "https://symfony.com/"
+   }, {
+      "title": "Django",
+      "description": "An open-source Python framework which makes web development easier based on code re-use.",
+      "logoName": "django",
+      "websiteUrl": "https://www.djangoproject.com/"
+   }, {
+      "title": "Ruby on Rails",
+      "description": "An open-source web framework which follows the MVC design pattern. It offers a structure that make web development in Ruby easier.",
+      "logoName": "rubyonrails",
+      "websiteUrl": "https://rubyonrails.org/"
+   }, {
+      "title": "Laravel",
+      "description": "An open-source web framework written in PHP which follows the MVC design pattern and fully developped in object-oriented programming.",
+      "logoName": "laravel",
+      "websiteUrl": "https://laravel.com/"
+   }, {
+      "title": "Astro",
+      "description": "A JavaScript web framework for building content-focused websites based on components.",
+      "logoName": "astro",
+      "websiteUrl": "https://astro.build/"
+   }, {
+      "title": "Express",
+      "description": "A JavaScript framework made to build web applications based on Node.js. It is used to build APIs and web servers.",
+      "logoName": "express",
+      "websiteUrl": "https://expressjs.com/"
+   }, {
+      "title": "Fastify",
+      "description": "A JavaScript framework used to make APIs and web servers based on Node.js.",
+      "logoName": "fastify",
+      "websiteUrl": "https://fastify.dev/"
+   }, {
+      "title": "Spring",
+      "description": "An open-source web framework written in Java used to easily build and define application structure facilitate the tests.",
+      "logoName": "spring",
+      "websiteUrl": "https://spring.io/"
    }]
 }]
