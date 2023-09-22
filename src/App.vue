@@ -1,6 +1,9 @@
 <script setup lang="ts">
+   import Header from './components/layout/Header.vue';
+   import { RouterView } from 'vue-router';
 </script>
 
 <template>
-   <h1>Hello, world!</h1>
+   <Header />
+   <RouterView />
 </template>
