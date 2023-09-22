@@ -3,7 +3,7 @@
 <template>
    <footer>
       <span>
-         © Toolify. All rights reserved.
+         © Toolist. All rights reserved.
       </span>
       <div class="circle"></div>
    </footer>
