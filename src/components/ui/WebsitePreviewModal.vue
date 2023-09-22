@@ -24,6 +24,11 @@
          </div>
       </header>
       <iframe :src="websiteUrl" frameborder="0"></iframe>
+      <footer>
+         <p>
+            If the website does not display, it means that it does not authorize our connection.
+         </p>
+      </footer>
    </div>
 </template>
 
@@ -44,16 +49,6 @@
       height: 100%;
 
       animation: fade-in .1s ease-in-out;
-
-      @keyframes fade-in {
-         from {
-            opacity: 0;
-         }
-
-         to {
-            opacity: 1;
-         }
-      }
    }
 
    .website-preview-modal {
@@ -152,9 +147,18 @@
          border-radius: 10px;
       }
 
-      animation: come-up .1s;
+      > footer {
+         > p {
+            font-size: 16px;
+            color: $gray;
 
-      @keyframes come-up {
+            text-align: center;
+         }
+      }
+
+      animation: fade-in .1s;
+
+      @keyframes fade-in {
          from {
             opacity: 0;
          }
