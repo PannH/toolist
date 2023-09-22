@@ -31,5 +31,9 @@
          background-color: $transparent-white;
          color: $white;
       }
+
+      &[aria-current] {
+         color: $white;
+      }
    }
 </style>
