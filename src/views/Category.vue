@@ -30,13 +30,6 @@
             :logoName="element.logoName"
             :websiteUrl="element.websiteUrl"
          />
-         <ToolCard
-            v-for="element of category?.elements"
-            :title="element.title"
-            :description="element.description"
-            :logoName="element.logoName"
-            :websiteUrl="element.websiteUrl"
-         />
       </div>
    </main>
 </template>
