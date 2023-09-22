@@ -1,11 +1,18 @@
 <script setup lang="ts">
-   const { variant } = defineProps<{
+   import { RouterLink } from 'vue-router';
+
+   const { variant, to, isExternal } = defineProps<{
       variant: 'primary' | 'secondary';
+      to?: string;
+      isExternal?: boolean;
    }>();
 </script>
 
 <template>
-   <button :class="variant">
+   <RouterLink v-if="to" :to="to" :target="isExternal ? '_blank' : ''" :class="`button ${variant}`">
+      <slot />
+   </RouterLink>
+   <button v-else :class="`button ${variant}`">
       <slot />
    </button>
 </template>
@@ -13,7 +20,7 @@
 <style scoped lang="scss">
    @use '../../styles/vars.scss' as *;
 
-   button {
+   .button {
       padding: 5px 20px;
       
       border-radius: 50px;
@@ -21,6 +28,8 @@
       font-size: 16px;
 
       border: none;
+
+      text-decoration: none;
 
       transition: background-color .1s;
 
