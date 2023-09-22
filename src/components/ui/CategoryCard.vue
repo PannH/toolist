@@ -13,7 +13,7 @@
 
    function pushRouter(): void {
 
-      router.push(`/categories/${slug}`);
+      router.push(`/category/${slug}`);
 
    }
 </script>
