@@ -1,13 +1,33 @@
 <script setup lang="ts">
-   const { logoName, title, description } = defineProps<{
+   import { ref } from 'vue';
+   import WebsitePreviewModal from './WebsitePreviewModal.vue';
+
+   const { logoName, title, description, websiteUrl } = defineProps<{
       logoName: string;
       title: string;
       description: string;
+      websiteUrl: string;
    }>();
+
+   const isModalOpen = ref<boolean>(false);
+
+   function openModal(): void {
+      isModalOpen.value = true;
+   }
+
+   function closeModal(): void {
+      isModalOpen.value = false;
+   }
 </script>
 
 <template>
-   <div class="tool-card">
+   <WebsitePreviewModal
+      :title="title"
+      :website-url="websiteUrl"
+      :display="isModalOpen ? 'flex' : 'none'"
+      @close-button-click="closeModal()"
+   />
+   <div class="tool-card" @click="openModal()">
       <header>
          <img loading="lazy" :src="`../src/assets/images/logos/${logoName}.png`" :alt="logoName.replace(/-/g, ' ')">
          <h3>{{ title }}</h3>
