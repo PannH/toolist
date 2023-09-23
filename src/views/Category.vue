@@ -17,7 +17,7 @@
 <template>
    <main>
       <header>
-         <img :src="`../src/assets/images/emojis/${category?.emojiName}.png`" :alt="category?.emojiName.replace(/-/g, ' ')">
+         <img :src="`../images/emojis/${category?.emojiName}.png`" :alt="category?.emojiName.replace(/-/g, ' ')">
          <CounterTitle :count="category?.elements.length ?? 0">
             {{ category?.title }}
          </CounterTitle>
