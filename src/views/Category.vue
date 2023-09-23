@@ -12,6 +12,8 @@
 
    if (!category)
       router.push('/');
+
+   document.title = `Toolist | ${category?.title}`;
 </script>
 
 <template>

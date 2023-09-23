@@ -2,6 +2,8 @@
    import CounterTitle from '../components/ui/CounterTitle.vue';
    import CategoryCard from '../components/ui/CategoryCard.vue';
    import categories from '../assets/data/categories.json';
+
+   document.title = 'Toolist | Categories';
 </script>
 
 <template>

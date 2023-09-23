@@ -6,6 +6,8 @@
    const to = route.query.to as string;
 
    window.location.href = to;
+
+   document.title = `Toolist | Redirect (${to})`;
 </script>
 
 <template>

@@ -1,5 +1,7 @@
 <script setup lang="ts">
    import Button from '../components/ui/Button.vue';
+
+   document.title = 'Toolist';
 </script>
 
 <template>
