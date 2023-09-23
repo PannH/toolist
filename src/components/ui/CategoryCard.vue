@@ -26,8 +26,10 @@
       </header>
       <main>
          <p>{{ description }}</p>
-         <small>{{ elementsCount }} elements</small>
       </main>
+      <footer>
+         <small>{{ elementsCount }} elements</small>
+      </footer>
    </div>
 </template>
 
@@ -73,12 +75,22 @@
       }
 
       > main {
-         display: flex;
-         flex-direction: column;
-         gap: 5px;
-
          font-size: 18px;
          color: $gray;
+      }
+
+      > footer {
+         margin-top: 5px;
+         
+         color: $gray;
+
+         flex-grow: 1;
+
+         display: flex;
+         
+         > small {
+            align-self: flex-end;
+         }
       }
    }
 </style>
