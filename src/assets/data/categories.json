@@ -58,5 +58,71 @@
       "description": "An open-source web framework written in Java used to easily build and define application structure facilitate the tests.",
       "logoName": "spring",
       "websiteUrl": "https://spring.io/"
+   }, {
+      "title": "ASP.NET",
+      "description": "A cross-platform open-source framework for building web applications and services with .NET and C#.",
+      "logoName": "aspnet",
+      "websiteUrl": "https://dotnet.microsoft.com/en-us/apps/aspnet"
+   }, {
+      "title": "Flask",
+      "description": "An open-source micro framework made for web development with Python. It is based on the Werkzeug toolkit and the Jinja2 template engine.",
+      "logoName": "flask",
+      "websiteUrl": "https://flask.palletsprojects.com/"
+   }, {
+      "title": "Meteor",
+      "description": "An open-source platform for building web, mobile, and desktop applications in JavaScript (based on Node.js).",
+      "logoName": "meteor",
+      "websiteUrl": "https://www.meteor.com/"
+   }, {
+      "title": "Ember.js",
+      "description": "An open-source JavaScript framework focused on web applications using the MVC design pattern.",
+      "logoName": "emberjs",
+      "websiteUrl": "https://emberjs.com/"
+   }, {
+      "title": "Sinatra",
+      "description": "A free and open-source library for web applications development written in Ruby. It depends on Web Rack server's interface.",
+      "logoName": "sinatra",
+      "websiteUrl": "https://sinatrarb.com/"
+   }, {
+      "title": "Phoenix",
+      "description": "A framework for building real-time web applications and APIs based on Elixir and the Erlang VM.",
+      "logoName": "phoenix",
+      "websiteUrl": "https://www.phoenixframework.org/"
+   }]
+}, {
+   "title": "Icon Libraries",
+   "description": "Discover a collection of icon sets to enhance the visual appeal of your web projects.",
+   "slug": "icon-libraries",
+   "emojiName": "artist-palette",
+   "elements": [{
+      "title": "Font Awesome",
+      "description": "A collection of +26,000 icons with 8 different styles. The free version gives you access to +2,000 icons.",
+      "logoName": "fontawesome",
+      "websiteUrl": "https://fontawesome.com/"
+   }, {
+      "title": "Boxicons",
+      "description": "An open-source and completely free set of +1,600 icons sorted in 3 different styles.",
+      "logoName": "boxicons",
+      "websiteUrl": "https://boxicons.com/"
+   }, {
+      "title": "Remix Icon",
+      "description": "An open-source collection of +2,500 neutral-style icons free for both personal and commercial use.",
+      "logoName": "remixicon",
+      "websiteUrl": "https://remixicon.com/"
+   }, {
+      "title": "Ionicons",
+      "description": "An open-source tiny stock of icons licensed and built by Ionic.",
+      "logoName": "ionicons",
+      "websiteUrl": "https://ionic.io/ionicons"
+   }, {
+      "title": "Feather",
+      "description": "An open-source tiny set of +280 SVG icons with a simple design.",
+      "logoName": "feather",
+      "websiteUrl": "https://feathericons.com/"
+   }, {
+      "title": "Google Fonts - Icons",
+      "description": "The font service from Google offers a collection of customizable icons available both in SVG and PNG.",
+      "logoName": "googlefonts",
+      "websiteUrl": "https://fonts.google.com/icons"
    }]
 }]
