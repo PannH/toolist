@@ -21,7 +21,7 @@
 <template>
    <div class="category-card" @click="pushRouter()">
       <header>
-         <img loading="lazy" :src="`emojis/${emojiName}.png`" :alt="emojiName.replace(/-/g, ' ')">
+         <img loading="lazy" :src="`images/emojis/${emojiName}.png`" :alt="emojiName.replace(/-/g, ' ')">
          <h3>{{ title }}</h3>
       </header>
       <main>
