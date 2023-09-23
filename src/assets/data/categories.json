@@ -124,5 +124,20 @@
       "description": "The font service from Google offers a collection of customizable icons available both in SVG and PNG.",
       "logoName": "googlefonts",
       "websiteUrl": "https://fonts.google.com/icons"
+   }, {
+      "title": "Heroicons",
+      "description": "A stock of +290 open-source hand-crafted SVG icons with 3 different styles.",
+      "logoName": "heroicons",
+      "websiteUrl": "https://heroicons.com/"
+   }, {
+      "title": "Lucide",
+      "description": "A large collection of +1,200 customizable icons available in different file formats.",
+      "logoName": "lucide",
+      "websiteUrl": "https://lucide.dev/"
+   }, {
+      "title": "Hugeicons",
+      "description": "A set of +25,000 SVG icons with 5 different styles. The free plan gives you access to only one style.",
+      "logoName": "hugeicons",
+      "websiteUrl": "https://hugeicons.com/"
    }]
 }]
