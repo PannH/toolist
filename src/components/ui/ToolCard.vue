@@ -2,11 +2,12 @@
    import { ref } from 'vue';
    import WebsitePreviewModal from './WebsitePreviewModal.vue';
 
-   const { logoName, title, description, websiteUrl } = defineProps<{
+   const { logoName, title, description, websiteUrl, categorySlug } = defineProps<{
       logoName: string;
       title: string;
       description: string;
       websiteUrl: string;
+      categorySlug: string;
    }>();
 
    const isModalOpen = ref<boolean>(false);
@@ -29,7 +30,7 @@
    />
    <div class="tool-card" @click="openModal()">
       <header>
-         <img loading="lazy" :src="`../images/logos/frameworks/${logoName}.png`" :alt="logoName.replace(/-/g, ' ')">
+         <img loading="lazy" :src="`../images/logos/${categorySlug}/${logoName}.png`" :alt="logoName.replace(/-/g, ' ')">
          <h3>{{ title }}</h3>
       </header>
       <main>
