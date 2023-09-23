@@ -37,6 +37,8 @@
    .category-card {
       width: 450px;
 
+      align-self: stretch;
+
       background-color: $dark-gray;
 
       border: 1px solid $transparent-gray;
