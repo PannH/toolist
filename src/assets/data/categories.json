@@ -149,5 +149,35 @@
       "description": "A set of +25,000 SVG icons with 5 different styles. The free plan gives you access to only one style.",
       "logoName": "hugeicons",
       "websiteUrl": "https://hugeicons.com/"
+   }, {
+      "title": "Majesticons",
+      "description": "A paid set of +6,500 simply designed icons available in 2 different styles with a free tier giving you access to 720 of them.",
+      "logoName": "majesticons",
+      "websiteUrl": "https://www.majesticons.com/"
+   }, {
+      "title": "Eva Icons",
+      "description": "A free collection of 480 icons with 2 different styles available both in SVG and PNG.",
+      "logoName": "evaicons",
+      "websiteUrl": "https://akveo.github.io/eva-icons"
+   }, {
+      "title": "Pixelarticons",
+      "description": "A pack of 24x24 pixel icons available in 4 different styles. The free plan gives you access to only one style.",
+      "logoName": "pixelarticons",
+      "websiteUrl": "https://pixelarticons.com/"
+   }, {
+      "title": "CSS Icons",
+      "description": "An open-source set of +700 icons available in many formats including CSS, SVG, TSX, and more.",
+      "logoName": "cssicons",
+      "websiteUrl": "https://css.gg/"
+   }, {
+      "title": "Iconhub",
+      "description": "A pack of customizable icons available in 6 different styles.",
+      "logoName": "iconhub",
+      "websiteUrl": "https://iconhub.io/"
+   }, {
+      "title": "Iconsax",
+      "description": "A set of +1,000 icons available in many formats made for the Vuesax framework.",
+      "logoName": "iconsax",
+      "websiteUrl": "https://iconsax.io/"
    }]
 }]
