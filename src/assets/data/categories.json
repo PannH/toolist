@@ -180,4 +180,40 @@
       "logoName": "iconsax",
       "websiteUrl": "https://iconsax.io/"
    }]
+}, {
+   "title": "UI Inspiration",
+   "description": "Dive into a world of captiving user interface designs that spark your creativity.",
+   "slug": "ui-inspiration",
+   "emojiName": "bulb",
+   "elements": [{
+      "title": "Dribbble",
+      "description": "Seek for inspiration by searching through a large collection of community-made UI designs.",
+      "logoName": "dribbble",
+      "websiteUrl": "https://dribbble.com/"
+   }, {
+      "title": "Behance",
+      "description": "Discover a large collection of user interface designs made by the community and get inspired by them.",
+      "logoName": "behance",
+      "websiteUrl": "https://behance.net/"
+   }, {
+      "title": "lookup.design",
+      "description": "Explore through a list of community-made user interface designs for web applications.",
+      "logoName": "lookupdesign",
+      "websiteUrl": "https://lookup.design/"
+   }, {
+      "title": "Pixelfika",
+      "description": "Dive into a collection of daily-shared user interface designs.",
+      "logoName": "pixelfika",
+      "websiteUrl": "https://pixelfika.com/"
+   }, {
+      "title": "Dark Mode Design",
+      "description": "A set of nicely designed user interfaces only available in dark mode.",
+      "logoName": "darkmodedesign",
+      "websiteUrl": "https://www.darkmodedesign.com/"
+   }, {
+      "title": "Prettyfolio",
+      "description": "Seek for inspiration for your professional portfolio by exploring through a collection of them.",
+      "logoName": "prettyfolio",
+      "websiteUrl": "https://www.prettyfolio.com/"
+   }]
 }]
