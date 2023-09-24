@@ -19,6 +19,16 @@
       "logoName": "angular",
       "websiteUrl": "https://angular.io/"
    }, {
+      "title": "Svelte",
+      "description": "A JavaScript framework for developing web applications and user interfaces based on components.",
+      "logoName": "svelte",
+      "websiteUrl": "https://svelte.dev/"
+   }, {
+      "title": "Qwik",
+      "description": "An open-source JavaScript framework for building fast and reactive web applications.",
+      "logoName": "qwik",
+      "websiteUrl": "https://qwik.builder.io/"
+   }, {
       "title": "Symfony",
       "description": "A PHP framework used to build web applications and APIs. It is based on the MVC pattern and is one of the most popular PHP frameworks.",
       "logoName": "symfony",
