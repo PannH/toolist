@@ -215,5 +215,15 @@
       "description": "Seek for inspiration for your professional portfolio by exploring through a collection of them.",
       "logoName": "prettyfolio",
       "websiteUrl": "https://www.prettyfolio.com/"
+   }, {
+      "title": "uiverse",
+      "description": "Explore a collection of user interface components created by the community.",
+      "logoName": "uiverse",
+      "websiteUrl": "https://uiverse.io/"
+   }, {
+      "title": "Figma Community",
+      "description": "Explore a large amount of community-made user interface designs.",
+      "logoName": "figmacommunity",
+      "websiteUrl": "https://www.figma.com/community"
    }]
 }]
