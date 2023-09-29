@@ -247,4 +247,45 @@
       "logoName": "recraft",
       "websiteUrl": "https://www.recraft.ai/"
    }]
+}, {
+   "title": "Illustrations",
+   "description": "Enhance your user interfaces with illustrations to make your designs more attractive.",
+   "slug": "illustrations",
+   "emojiName": "framed-picture",
+   "elements": [{
+      "title": "unDraw",
+      "description": "A collection of open-source customizable illustrations of people.",
+      "logoName": "undraw",
+      "websiteUrl": "https://undraw.co/"
+   }, {
+      "title": "manypixels",
+      "description": "+2,500 free-to-use and simple-looking illustrations.",
+      "logoName": "manypixels",
+      "websiteUrl": "https://www.manypixels.co/gallery"
+   }, {
+      "title": "Sketchvalley",
+      "description": "A set of hand-drawn free vector illustrations resources for your design projects.",
+      "logoName": "sketchvalley",
+      "websiteUrl": "https://sketchvalley.com/"
+   }, {
+      "title": "IllustrationKit",
+      "description": "A pack of beautiful handcrafted illustrations for personal & commercial projects.",
+      "logoName": "illustrationkit",
+      "websiteUrl": "https://illustrationkit.com/"
+   }, {
+      "title": "Pixeltrue Packs",
+      "description": "A bunch of packs of illustrations / animations in different styles and themes.",
+      "logoName": "pixeltruepacks",
+      "websiteUrl": "https://www.pixeltrue.com/packs"
+   }, {
+      "title": "Shapefest",
+      "description": "A massive library of free-to-use 3D illustrations.",
+      "logoName": "shapefest",
+      "websiteUrl": "https://www.shapefest.com/"
+   }, {
+      "title": "3dicons",
+      "description": "+1,440 3D icons available in different colors and formats.",
+      "logoName": "3dicons",
+      "websiteUrl": "https://3dicons.co/"
+   }]
 }]
