@@ -226,4 +226,25 @@
       "logoName": "figmacommunity",
       "websiteUrl": "https://www.figma.com/community"
    }]
+}, {
+   "title": "A.I. Tools",
+   "description": "Find out how to increase your productivity with a bunch of tools powered by artificial intelligence.",
+   "slug": "ai-tools",
+   "emojiName": "robot",
+   "elements": [{
+      "title": "ChatGPT",
+      "description": "Discover the must-have chat assistant to will reply to any of your request.",
+      "logoName": "chatgpt",
+      "websiteUrl": "https://chat.openai.com/"
+   }, {
+      "title": "DALL·E 2",
+      "description": "Create images from a descriptive prompt.",
+      "logoName": "dalle",
+      "websiteUrl": "https://openai.com/dall-e-2"
+   }, {
+      "title": "Recraft",
+      "description": "Generate high-quality assets from a simple prompt.",
+      "logoName": "recraft",
+      "websiteUrl": "https://www.recraft.ai/"
+   }]
 }]
