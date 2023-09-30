@@ -14,8 +14,7 @@
 
 
    const favoriteToolsJSON = localStorage.getItem('favorite_tools') ?? '[]';
-   console.log(favoriteToolsJSON);
-   console.log(JSON.parse(favoriteToolsJSON).includes(slug));
+   
    const isFavorite = ref<boolean>(JSON.parse(favoriteToolsJSON).includes(slug));
 
    const isModalOpen = ref<boolean>(false);
