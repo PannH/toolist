@@ -35,6 +35,9 @@
          <NavLink to="/categories" @click="closeHeader()">
             Categories
          </NavLink>
+         <NavLink to="/favorites" @click="closeHeader()">
+            Favorites
+         </NavLink>
          <!--
             todo: replace the pulls url by an anchor url to a title of the readme 
             that says how to suggest a new tool (idea: contact me on discord)
@@ -90,7 +93,7 @@
          gap: 10px;
       }
 
-      @media (max-width: 660px) {
+      @media (max-width: 780px) {
          flex-wrap: wrap;
 
          margin: calc($margin / 2);
