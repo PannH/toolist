@@ -293,4 +293,35 @@
       "logoName": "3dicons",
       "websiteUrl": "https://3dicons.co/"
    }]
+}, {
+   "title": "Typography",
+   "description": "Find the perfect fonts that match the energy of your web applications.",
+   "slug": "typography",
+   "emojiName": "fountain-pen",
+   "elements": [{
+      "title": "Google Fonts",
+      "description": "Dive into a massive library of free-to-use fonts provided by Google that are easy to integrate into your web projects.",
+      "logoName": "googlefonts",
+      "websiteUrl": "https://fonts.google.com/"
+   }, {
+      "title": "Dafont",
+      "description": "Explore through a large amount of categorized fonts and download them for free.",
+      "logoName": "dafont",
+      "websiteUrl": "https://www.dafont.com/"
+   }, {
+      "title": "All Free Fonts",
+      "description": "Discover a collection of categorized free-to-use magnificent fonts.",
+      "logoName": "allfreefonts",
+      "websiteUrl": "https://www.allfreefonts.co/"
+   }, {
+      "title": "Fontshare",
+      "description": "A minimalist collection of selected fonts that are free-to-use with premade font pairs.",
+      "logoName": "fontshare",
+      "websiteUrl": "https://www.fontshare.com/"
+   }, {
+      "title": "Uncut",
+      "description": "A list of beautiful categorized free-to-use fonts.",
+      "logoName": "uncut",
+      "websiteUrl": "https://uncut.wtf/"
+   }]
 }]
