@@ -246,6 +246,11 @@
       "description": "Generate high-quality assets from a simple prompt.",
       "logoName": "recraft",
       "websiteUrl": "https://www.recraft.ai/"
+   }, {
+      "title": "GitHub Copilot",
+      "description": "Develop with the assisting hand of GitHub Copilot which will provide code generation / suggestions according to the project you're working on (free with student plan).",
+      "logoName": "githubcopilot",
+      "websiteUrl": "https://github.com/features/copilot"
    }]
 }, {
    "title": "Illustrations",
