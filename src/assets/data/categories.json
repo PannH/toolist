@@ -350,4 +350,15 @@
       "slug": "pixabay",
       "websiteUrl": "https://pixabay.com/"
    }]
+}, {
+   "title": "Chrome Extensions",
+   "description": "Dig into a list of useful Chrome extensions related to web development.",
+   "slug": "chrome-extensions",
+   "emojiName": "puzzle-piece",
+   "elements": [{
+      "title": "Wappalyzer",
+      "description": "Identify used technologies (frameworks, programming languages, libraries, etc) on any website.",
+      "slug": "wappalyzer",
+      "websiteUrl": "https://www.wappalyzer.com/"
+   }]
 }]
