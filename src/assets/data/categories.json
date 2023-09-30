@@ -324,4 +324,30 @@
       "logoName": "uncut",
       "websiteUrl": "https://uncut.wtf/"
    }]
+}, {
+   "title": "Image Stocks",
+   "description": "Find the perfect fonts that match the energy of your web applications.",
+   "slug": "image-stocks",
+   "emojiName": "camera",
+   "elements": [{
+      "title": "Unsplash",
+      "description": "A collection of +2,000,000 copyright-free image stock.",
+      "logoName": "unsplash",
+      "websiteUrl": "https://unsplash.com/"
+   }, {
+      "title": "Pexels",
+      "description": "A massive library of license-free image stock.",
+      "logoName": "pexels",
+      "websiteUrl": "https://pexels.com/"
+   }, {
+      "title": "ShotStash",
+      "description": "A set of free high-quality pictures to use in your web projects.",
+      "logoName": "shotstash",
+      "websiteUrl": "https://shotstash.com/"
+   }, {
+      "title": "Pixabay",
+      "description": "A gallery of +4,100,00 stunning free-to-use HD pictures.",
+      "logoName": "pixabay",
+      "websiteUrl": "https://pixabay.com/"
+   }]
 }]
