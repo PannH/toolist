@@ -5,6 +5,7 @@ import App from './App.vue';
 import Home from './views/Home.vue';
 import Categories from './views/Categories.vue';
 import Category from './views/Category.vue';
+import Favorites from './views/Favorites.vue';
 import Redirect from './views/Redirect.vue';
 import NotFound from './views/NotFound.vue';
 
@@ -19,6 +20,9 @@ const router = createRouter({
    }, {
       path: '/category/:slug',
       component: Category
+   }, {
+      path: '/favorites',
+      component: Favorites
    }, {
       path: '/redirect',
       component: Redirect
