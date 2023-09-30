@@ -3,7 +3,6 @@
    import WebsitePreviewModal from './WebsitePreviewModal.vue';
    import IconButton from './IconButton.vue';
    import StarIcon from '../icons/Star.vue';
-   import FilledStarIcon from '../icons/FilledStar.vue';
 
    const { slug, title, description, websiteUrl, categorySlug } = defineProps<{
       slug: string;
