@@ -6,97 +6,97 @@
    "elements": [{
       "title": "React",
       "description": "A JavaScript library developped by Facebook which allows you to easily create web applications by mounting components together.",
-      "logoName": "react",
+      "slug": "react",
       "websiteUrl": "https://react.dev/"
    }, {
       "title": "Vue.js",
       "description": "A JavaScript framework used to build user interfaces and web applications originally created by Evan You.",
-      "logoName": "vuejs",
+      "slug": "vuejs",
       "websiteUrl": "https://vuejs.org/"
    }, {
       "title": "Angular",
       "description": "A TypeScript-based open-source web application framework co-managed by the \"Angular\" team at Google and by a community of individuals and corporations.",
-      "logoName": "angular",
+      "slug": "angular",
       "websiteUrl": "https://angular.io/"
    }, {
       "title": "Svelte",
       "description": "A JavaScript framework for developing web applications and user interfaces based on components.",
-      "logoName": "svelte",
+      "slug": "svelte",
       "websiteUrl": "https://svelte.dev/"
    }, {
       "title": "Qwik",
       "description": "An open-source JavaScript framework for building fast and reactive web applications.",
-      "logoName": "qwik",
+      "slug": "qwik",
       "websiteUrl": "https://qwik.builder.io/"
    }, {
       "title": "Symfony",
       "description": "A PHP framework used to build web applications and APIs. It is based on the MVC pattern and is one of the most popular PHP frameworks.",
-      "logoName": "symfony",
+      "slug": "symfony",
       "websiteUrl": "https://symfony.com/"
    }, {
       "title": "Django",
       "description": "An open-source Python framework which makes web development easier based on code re-use.",
-      "logoName": "django",
+      "slug": "django",
       "websiteUrl": "https://www.djangoproject.com/"
    }, {
       "title": "Ruby on Rails",
       "description": "An open-source web framework which follows the MVC design pattern. It offers a structure that make web development in Ruby easier.",
-      "logoName": "rubyonrails",
+      "slug": "rubyonrails",
       "websiteUrl": "https://rubyonrails.org/"
    }, {
       "title": "Laravel",
       "description": "An open-source web framework written in PHP which follows the MVC design pattern and fully developped in object-oriented programming.",
-      "logoName": "laravel",
+      "slug": "laravel",
       "websiteUrl": "https://laravel.com/"
    }, {
       "title": "Astro",
       "description": "A JavaScript web framework for building content-focused websites based on components.",
-      "logoName": "astro",
+      "slug": "astro",
       "websiteUrl": "https://astro.build/"
    }, {
       "title": "Express",
       "description": "A JavaScript framework made to build web applications based on Node.js. It is used to build APIs and web servers.",
-      "logoName": "express",
+      "slug": "express",
       "websiteUrl": "https://expressjs.com/"
    }, {
       "title": "Fastify",
       "description": "A JavaScript framework used to make APIs and web servers based on Node.js.",
-      "logoName": "fastify",
+      "slug": "fastify",
       "websiteUrl": "https://fastify.dev/"
    }, {
       "title": "Spring",
       "description": "An open-source web framework written in Java used to easily build and define application structure facilitate the tests.",
-      "logoName": "spring",
+      "slug": "spring",
       "websiteUrl": "https://spring.io/"
    }, {
       "title": "ASP.NET",
       "description": "A cross-platform open-source framework for building web applications and services with .NET and C#.",
-      "logoName": "aspnet",
+      "slug": "aspnet",
       "websiteUrl": "https://dotnet.microsoft.com/en-us/apps/aspnet"
    }, {
       "title": "Flask",
       "description": "An open-source micro framework made for web development with Python. It is based on the Werkzeug toolkit and the Jinja2 template engine.",
-      "logoName": "flask",
+      "slug": "flask",
       "websiteUrl": "https://flask.palletsprojects.com/"
    }, {
       "title": "Meteor",
       "description": "An open-source platform for building web, mobile, and desktop applications in JavaScript (based on Node.js).",
-      "logoName": "meteor",
+      "slug": "meteor",
       "websiteUrl": "https://www.meteor.com/"
    }, {
       "title": "Ember.js",
       "description": "An open-source JavaScript framework focused on web applications using the MVC design pattern.",
-      "logoName": "emberjs",
+      "slug": "emberjs",
       "websiteUrl": "https://emberjs.com/"
    }, {
       "title": "Sinatra",
       "description": "A free and open-source library for web applications development written in Ruby. It depends on Web Rack server's interface.",
-      "logoName": "sinatra",
+      "slug": "sinatra",
       "websiteUrl": "https://sinatrarb.com/"
    }, {
       "title": "Phoenix",
       "description": "A framework for building real-time web applications and APIs based on Elixir and the Erlang VM.",
-      "logoName": "phoenix",
+      "slug": "phoenix",
       "websiteUrl": "https://www.phoenixframework.org/"
    }]
 }, {
@@ -107,77 +107,77 @@
    "elements": [{
       "title": "Font Awesome",
       "description": "A collection of +26,000 icons with 8 different styles. The free version gives you access to +2,000 icons.",
-      "logoName": "fontawesome",
+      "slug": "fontawesome",
       "websiteUrl": "https://fontawesome.com/"
    }, {
       "title": "Boxicons",
       "description": "An open-source and completely free set of +1,600 icons sorted in 3 different styles.",
-      "logoName": "boxicons",
+      "slug": "boxicons",
       "websiteUrl": "https://boxicons.com/"
    }, {
       "title": "Remix Icon",
       "description": "An open-source collection of +2,500 neutral-style icons free for both personal and commercial use.",
-      "logoName": "remixicon",
+      "slug": "remixicon",
       "websiteUrl": "https://remixicon.com/"
    }, {
       "title": "Ionicons",
       "description": "An open-source tiny stock of icons licensed and built by Ionic.",
-      "logoName": "ionicons",
+      "slug": "ionicons",
       "websiteUrl": "https://ionic.io/ionicons"
    }, {
       "title": "Feather",
       "description": "An open-source tiny set of +280 SVG icons with a simple design.",
-      "logoName": "feather",
+      "slug": "feather",
       "websiteUrl": "https://feathericons.com/"
    }, {
       "title": "Google Fonts - Icons",
       "description": "The font service from Google offers a collection of customizable icons available both in SVG and PNG.",
-      "logoName": "googlefonts",
+      "slug": "googlefonts",
       "websiteUrl": "https://fonts.google.com/icons"
    }, {
       "title": "Heroicons",
       "description": "A stock of +290 open-source hand-crafted SVG icons with 3 different styles.",
-      "logoName": "heroicons",
+      "slug": "heroicons",
       "websiteUrl": "https://heroicons.com/"
    }, {
       "title": "Lucide",
       "description": "A large collection of +1,200 customizable icons available in different file formats.",
-      "logoName": "lucide",
+      "slug": "lucide",
       "websiteUrl": "https://lucide.dev/"
    }, {
       "title": "Hugeicons",
       "description": "A set of +25,000 SVG icons with 5 different styles. The free plan gives you access to only one style.",
-      "logoName": "hugeicons",
+      "slug": "hugeicons",
       "websiteUrl": "https://hugeicons.com/"
    }, {
       "title": "Majesticons",
       "description": "A paid set of +6,500 simply designed icons available in 2 different styles with a free tier giving you access to 720 of them.",
-      "logoName": "majesticons",
+      "slug": "majesticons",
       "websiteUrl": "https://www.majesticons.com/"
    }, {
       "title": "Eva Icons",
       "description": "A free collection of 480 icons with 2 different styles available both in SVG and PNG.",
-      "logoName": "evaicons",
+      "slug": "evaicons",
       "websiteUrl": "https://akveo.github.io/eva-icons"
    }, {
       "title": "Pixelarticons",
       "description": "A pack of 24x24 pixel icons available in 4 different styles. The free plan gives you access to only one style.",
-      "logoName": "pixelarticons",
+      "slug": "pixelarticons",
       "websiteUrl": "https://pixelarticons.com/"
    }, {
       "title": "CSS Icons",
       "description": "An open-source set of +700 icons available in many formats including CSS, SVG, TSX, and more.",
-      "logoName": "cssicons",
+      "slug": "cssicons",
       "websiteUrl": "https://css.gg/"
    }, {
       "title": "Iconhub",
       "description": "A pack of customizable icons available in 6 different styles.",
-      "logoName": "iconhub",
+      "slug": "iconhub",
       "websiteUrl": "https://iconhub.io/"
    }, {
       "title": "Iconsax",
       "description": "A set of +1,000 icons available in many formats made for the Vuesax framework.",
-      "logoName": "iconsax",
+      "slug": "iconsax",
       "websiteUrl": "https://iconsax.io/"
    }]
 }, {
@@ -188,42 +188,42 @@
    "elements": [{
       "title": "Dribbble",
       "description": "Seek for inspiration by searching through a large collection of community-made UI designs.",
-      "logoName": "dribbble",
+      "slug": "dribbble",
       "websiteUrl": "https://dribbble.com/"
    }, {
       "title": "Behance",
       "description": "Discover a large collection of user interface designs made by the community and get inspired by them.",
-      "logoName": "behance",
+      "slug": "behance",
       "websiteUrl": "https://behance.net/"
    }, {
       "title": "lookup.design",
       "description": "Explore through a list of community-made user interface designs for web applications.",
-      "logoName": "lookupdesign",
+      "slug": "lookupdesign",
       "websiteUrl": "https://lookup.design/"
    }, {
       "title": "Pixelfika",
       "description": "Dive into a collection of daily-shared user interface designs.",
-      "logoName": "pixelfika",
+      "slug": "pixelfika",
       "websiteUrl": "https://pixelfika.com/"
    }, {
       "title": "Dark Mode Design",
       "description": "A set of nicely designed user interfaces only available in dark mode.",
-      "logoName": "darkmodedesign",
+      "slug": "darkmodedesign",
       "websiteUrl": "https://www.darkmodedesign.com/"
    }, {
       "title": "Prettyfolio",
       "description": "Seek for inspiration for your professional portfolio by exploring through a collection of them.",
-      "logoName": "prettyfolio",
+      "slug": "prettyfolio",
       "websiteUrl": "https://www.prettyfolio.com/"
    }, {
       "title": "uiverse",
       "description": "Explore a collection of user interface components created by the community.",
-      "logoName": "uiverse",
+      "slug": "uiverse",
       "websiteUrl": "https://uiverse.io/"
    }, {
       "title": "Figma Community",
       "description": "Explore a large amount of community-made user interface designs.",
-      "logoName": "figmacommunity",
+      "slug": "figmacommunity",
       "websiteUrl": "https://www.figma.com/community"
    }]
 }, {
@@ -234,22 +234,22 @@
    "elements": [{
       "title": "ChatGPT",
       "description": "Discover the must-have chat assistant to will reply to any of your request.",
-      "logoName": "chatgpt",
+      "slug": "chatgpt",
       "websiteUrl": "https://chat.openai.com/"
    }, {
       "title": "DALL·E 2",
       "description": "Create images from a descriptive prompt.",
-      "logoName": "dalle",
+      "slug": "dalle",
       "websiteUrl": "https://openai.com/dall-e-2"
    }, {
       "title": "Recraft",
       "description": "Generate high-quality assets from a simple prompt.",
-      "logoName": "recraft",
+      "slug": "recraft",
       "websiteUrl": "https://www.recraft.ai/"
    }, {
       "title": "GitHub Copilot",
       "description": "Develop with the assisting hand of GitHub Copilot which will provide code generation / suggestions according to the project you're working on (free with student plan).",
-      "logoName": "githubcopilot",
+      "slug": "githubcopilot",
       "websiteUrl": "https://github.com/features/copilot"
    }]
 }, {
@@ -260,37 +260,37 @@
    "elements": [{
       "title": "unDraw",
       "description": "A collection of open-source customizable illustrations of people.",
-      "logoName": "undraw",
+      "slug": "undraw",
       "websiteUrl": "https://undraw.co/"
    }, {
       "title": "manypixels",
       "description": "+2,500 free-to-use and simple-looking illustrations.",
-      "logoName": "manypixels",
+      "slug": "manypixels",
       "websiteUrl": "https://www.manypixels.co/gallery"
    }, {
       "title": "Sketchvalley",
       "description": "A set of hand-drawn free vector illustrations resources for your design projects.",
-      "logoName": "sketchvalley",
+      "slug": "sketchvalley",
       "websiteUrl": "https://sketchvalley.com/"
    }, {
       "title": "IllustrationKit",
       "description": "A pack of beautiful handcrafted illustrations for personal & commercial projects.",
-      "logoName": "illustrationkit",
+      "slug": "illustrationkit",
       "websiteUrl": "https://illustrationkit.com/"
    }, {
       "title": "Pixeltrue Packs",
       "description": "A bunch of packs of illustrations / animations in different styles and themes.",
-      "logoName": "pixeltruepacks",
+      "slug": "pixeltruepacks",
       "websiteUrl": "https://www.pixeltrue.com/packs"
    }, {
       "title": "Shapefest",
       "description": "A massive library of free-to-use 3D illustrations.",
-      "logoName": "shapefest",
+      "slug": "shapefest",
       "websiteUrl": "https://www.shapefest.com/"
    }, {
       "title": "3dicons",
       "description": "+1,440 3D icons available in different colors and formats.",
-      "logoName": "3dicons",
+      "slug": "3dicons",
       "websiteUrl": "https://3dicons.co/"
    }]
 }, {
@@ -301,27 +301,27 @@
    "elements": [{
       "title": "Google Fonts",
       "description": "Dive into a massive library of free-to-use fonts provided by Google that are easy to integrate into your web projects.",
-      "logoName": "googlefonts",
+      "slug": "googlefonts",
       "websiteUrl": "https://fonts.google.com/"
    }, {
       "title": "Dafont",
       "description": "Explore through a large amount of categorized fonts and download them for free.",
-      "logoName": "dafont",
+      "slug": "dafont",
       "websiteUrl": "https://www.dafont.com/"
    }, {
       "title": "All Free Fonts",
       "description": "Discover a collection of categorized free-to-use magnificent fonts.",
-      "logoName": "allfreefonts",
+      "slug": "allfreefonts",
       "websiteUrl": "https://www.allfreefonts.co/"
    }, {
       "title": "Fontshare",
       "description": "A minimalist collection of selected fonts that are free-to-use with premade font pairs.",
-      "logoName": "fontshare",
+      "slug": "fontshare",
       "websiteUrl": "https://www.fontshare.com/"
    }, {
       "title": "Uncut",
       "description": "A list of beautiful categorized free-to-use fonts.",
-      "logoName": "uncut",
+      "slug": "uncut",
       "websiteUrl": "https://uncut.wtf/"
    }]
 }, {
@@ -332,22 +332,22 @@
    "elements": [{
       "title": "Unsplash",
       "description": "A collection of +2,000,000 copyright-free image stock.",
-      "logoName": "unsplash",
+      "slug": "unsplash",
       "websiteUrl": "https://unsplash.com/"
    }, {
       "title": "Pexels",
       "description": "A massive library of license-free image stock.",
-      "logoName": "pexels",
+      "slug": "pexels",
       "websiteUrl": "https://pexels.com/"
    }, {
       "title": "ShotStash",
       "description": "A set of free high-quality pictures to use in your web projects.",
-      "logoName": "shotstash",
+      "slug": "shotstash",
       "websiteUrl": "https://shotstash.com/"
    }, {
       "title": "Pixabay",
       "description": "A gallery of +4,100,00 stunning free-to-use HD pictures.",
-      "logoName": "pixabay",
+      "slug": "pixabay",
       "websiteUrl": "https://pixabay.com/"
    }]
 }]

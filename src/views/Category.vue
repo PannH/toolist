@@ -29,7 +29,7 @@
             v-for="element of category?.elements"
             :title="element.title"
             :description="element.description"
-            :logoName="element.logoName"
+            :slug="element.slug"
             :websiteUrl="element.websiteUrl"
             :categorySlug="category?.slug ?? ''"
          />
